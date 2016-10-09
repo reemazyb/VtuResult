@@ -43,4 +43,4 @@ def get_results_from_dynamodb(usn,sem):
 	usn_sem = usn+"_"+sem
 	dynamodb_object = dynamodb()
 	results = dynamodb_object.get_results(usn_sem)
-	return results	
+	return results
